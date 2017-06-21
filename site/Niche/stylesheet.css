@@ -1,0 +1,351 @@
+/**
+ * CH01 - General
+ * CH02 - Home
+ * CH03 - Stories
+ * CH04 - Series
+ * CH05 - Posts
+ * CH06 - Inspo
+**/
+
+/** CH01 - General **/
+.NavBar ul {
+  position: absolute;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  padding-top: 4px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-bottom: 0.2px solid;
+  border-color: #c4c4c4;
+}
+.NavBar li {
+  float: right;
+}
+.NavBar li a {
+  display: block;
+  padding: 14px 27px;
+  text-decoration: none;
+  float: right;
+  color: black;
+  letter-spacing: 3px;
+  background-color: white;
+}
+.NavBar li a:hover {
+  transition: .6s ease;
+  color: #8bbfc4;
+  background-color: white;}
+}
+.NavBar img {
+  float: left;
+  height: inherit;
+  max-height: 60px;
+  margin-left: 26px;
+  background-color: transparent;
+  color: black;
+}
+body {
+  font: 10px;
+  color: #000000;
+  margin: 0px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  max-width: 50000px;
+}
+.Padding {
+  padding-top: 100px;
+}
+.footer {
+  background-color: white;
+  border-top: 0.2px solid;
+  border-color: #c4c4c4;
+  position: absolute;
+  width: 100%;
+  font-size: 10px;
+  letter-spacing: 3px;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  font-weight: 400;
+}
+.footer ul {
+  margin-left: -45px;
+  text-align: center;
+}
+.footer li {
+  display: inline-block;
+  padding: 8px;
+}
+.footer li a {
+  text-decoration: none;
+  color: inherit;
+  letter-spacing: 4px;
+  background-color: white;
+  font-size: 10px;
+}
+.footer li a:hover {
+  transition: .4s ease;
+  color: #8bbfc4;
+  background-color: white;
+}
+
+/**CH02 - Home **/
+.HomeImage {
+  background-image: url("North.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100%;
+  background-attachment: fixed;
+  height: 100%;
+}
+.HomeHeading {
+  font-size: 20px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #333333;
+  padding-top: 18%;
+  letter-spacing: 8px;
+}
+.Title {
+  color: #98ccd1;
+  text-align: center;
+  font-size: 120px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 350;
+  margin-top: -120px;
+  letter-spacing: 55px;
+}
+.HomeText {
+  padding-left: 15px;
+  padding-right: 5px;
+}
+.SubmitButton {
+  background-color: #ffffff;
+  color: black;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+  border: 0.5px solid;
+  border-color: black;
+  font-weight: 400;
+}
+.SubmitButton:hover {
+  transition: .8s ease;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+}
+.StoriesTBD {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  padding: 14px 25px;
+  color: #815b91;
+}
+.HomePullQuote {
+  text-align: center;
+  padding-left: 29%;
+  padding-right: 29%;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 2px;
+  background-color: #87b8bc;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.Updates {
+  text-align: center;
+  padding-left: 35%;
+  padding-right: 35%;
+  color: white;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  background-color: #87b8bc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.form {
+  font: inherit;
+}
+
+/** CH03 - Stories **/
+.StoryPosts {
+  display: inline-block;
+  max-width: 40%;
+  height: auto;
+  text-align: center;
+}
+.StoryPosts img {
+  padding-left: 37%;
+  padding-right: 37%;
+  margin-top: 60px;
+  width: 74%;
+  height: auto;
+  caption-side: bottom;
+  margin-bottom: 5px;
+}
+.StoryPad {
+  padding-top: 10px;
+  padding-bottom: 35px;
+  display: inline-block;
+  padding-left: 48%;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: top;
+}
+.StoryNavPad {
+  padding-top: 50px;
+}
+.StoryPosts a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  opacity: .85;
+}
+.StoryPosts a:hover {
+  opacity: .99;
+  transform: scale(1.07);
+}
+
+.StoryPosts img:hover {
+  transition: .5s ease;
+  transform: scale(1.05);
+}
+
+/**CH04 - Series **/
+.Anth {
+  caption-side: bottom;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  padding: 14px 25px;
+  color: black;
+  font-size: 17px;
+}
+.Anth img {
+  width: 33%;
+  max-width: 540px;
+  height: auto;
+  display: inline-block;
+}
+.AnthPad {
+  padding-top: 13px;
+  padding-bottom: 40px;
+}
+.Anth a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  background-color: white;
+  opacity: .85;
+}
+.Anth a:hover {
+  background-color: white;
+  opacity: 1;
+}
+.Anth img:hover {
+  transform: scale(1.05);
+  transition: .5s ease;
+}
+
+/** CH05 - Posts **/
+.PostTitle {
+  text-align: center;
+  color: #98ccd1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 7px;
+  padding-bottom: 30px;
+}
+.PostLeft img {
+  width: 100%;
+  float: left;
+  height: auto;
+  display: block;
+  padding-bottom: 25px;
+  max-width: 560px;
+  padding-right: 30px;
+  max-height: 400px;
+}
+.PostRight img {
+  width: 100%;
+  float: right;
+  height: auto;
+  display: block;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  max-width: 560px;
+  padding-left: 30px;
+  max-height: 400px;
+}
+.PostText {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  margin-right: 19%;
+  margin-left: 19%;
+  font-size: 15px;
+}
+.CreditText {
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+  font-size: 11.5px;
+  color: gray;
+  font-weight: 300;
+  padding-top: 7px;
+  padding-bottom: 10px;
+  padding-left: 19%;
+}
+.PullQuote {
+  text-align: center;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 20px;
+}
+.EndBuffer {
+  padding-bottom: 11%;
+}
+
+/**CH06 - Inspo **/
+.InspoTitle {
+  text-align: center;
+  color: #98ccd1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  clear: both;
+}
+.InspoText {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 22px;
+}
+.Inspo img{
+  width: 20%;
+  max-width: 55%;
+  height: auto;
+  max-height: 550px;
+  float: left;
+}
+.InspoPad {
+  padding-top: 50px
+}
