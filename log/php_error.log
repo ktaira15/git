@@ -3,3 +3,29 @@
 [19-Jun-2017 17:00:29] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [19-Jun-2017 17:00:29] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib/php/modules/http.so' - /usr/lib/php/modules/http.so: cannot open shared object file: No such file or directory in Unknown on line 0
 [19-Jun-2017 17:00:53] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[19-Jun-2017 21:55:32] PHP Parse error:  syntax error, unexpected '{' in /vagrant/site/index.php on line 14
+[19-Jun-2017 21:57:29] PHP Parse error:  syntax error, unexpected '{' in /vagrant/site/index.php on line 14
+[19-Jun-2017 21:57:30] PHP Parse error:  syntax error, unexpected '{' in /vagrant/site/index.php on line 14
+[19-Jun-2017 16:58:48] PHP Notice:  Undefined variable: _REUEST in /vagrant/site/index.php on line 15
+[21-Jun-2017 15:29:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 19
+[21-Jun-2017 15:36:54] PHP Parse error:  syntax error, unexpected T_PUBLIC in /vagrant/site/index.php on line 28
+[21-Jun-2017 15:37:19] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /vagrant/site/index.php on line 29
+[21-Jun-2017 15:37:20] PHP Parse error:  syntax error, unexpected '{', expecting ',' or ';' in /vagrant/site/index.php on line 29
+[21-Jun-2017 15:37:24] PHP Parse error:  syntax error, unexpected ',' in /vagrant/site/index.php on line 31
+[21-Jun-2017 15:37:33] PHP Parse error:  syntax error, unexpected ',' in /vagrant/site/index.php on line 30
+[21-Jun-2017 15:37:34] PHP Parse error:  syntax error, unexpected ',' in /vagrant/site/index.php on line 30
+[21-Jun-2017 15:37:37] PHP Parse error:  syntax error, unexpected ',' in /vagrant/site/index.php on line 30
+[21-Jun-2017 15:40:10] PHP Parse error:  syntax error, unexpected '}' in /vagrant/site/index.php on line 43
+[21-Jun-2017 15:42:41] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 27
+[21-Jun-2017 15:42:41] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 27
+[21-Jun-2017 15:42:56] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 27
+[21-Jun-2017 15:42:56] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 27
+[21-Jun-2017 15:42:57] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 27
+[21-Jun-2017 15:43:02] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 31
+[21-Jun-2017 10:43:33] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:43:35] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:43:36] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:43:37] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:44:06] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:44:24] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[21-Jun-2017 10:44:29] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
