@@ -27,7 +27,9 @@
 
     function orange($red, $yellow){
 
+      
       #CSS would go here? or in if statements? Unsure if this looks right ..... OR WOULD I HAVE TO DO THIS AS A DIV WITH HTML??? consider
+      #Like pretty sure I need a separate CSS stylesheet (or at least I will down the line) and have to integrate it somehow
     }
     function purple($red, $blue){
       #CSS would go here? or in if statements
