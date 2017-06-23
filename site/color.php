@@ -19,6 +19,7 @@
     else {
       echo "Sorry, pick one more color!";
     }
+#i think i might have to do if statements for if two of the same color was selected, unsure if sufficient to just define
 
     $red = red; #won't let me do "background-color:" like in CSS, won't accept the colon--unsure what to do. Do I need separate stylesheet? Style tag sufficient? Seems like it isn't.
     $yellow = yellow;
@@ -61,6 +62,6 @@
       </form>
     ";
     ?>
-    
+
   </body>
 </html>
