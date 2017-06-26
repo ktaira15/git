@@ -163,3 +163,169 @@
 [23-Jun-2017 14:30:16] PHP Notice:  Use of undefined constant red - assumed 'red' in /vagrant/site/color.php on line 23
 [23-Jun-2017 14:30:16] PHP Notice:  Use of undefined constant yellow - assumed 'yellow' in /vagrant/site/color.php on line 24
 [23-Jun-2017 14:30:16] PHP Notice:  Use of undefined constant blue - assumed 'blue' in /vagrant/site/color.php on line 25
+[26-Jun-2017 14:49:13] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[26-Jun-2017 12:26:04] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 12:26:04] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 12:26:04] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 12:26:10] PHP Notice:  Use of undefined constant purple - assumed 'purple' in /vagrant/site/color.php on line 13
+[26-Jun-2017 12:26:10] PHP Notice:  Use of undefined constant green - assumed 'green' in /vagrant/site/color.php on line 16
+[26-Jun-2017 12:26:10] PHP Notice:  Use of undefined constant red - assumed 'red' in /vagrant/site/color.php on line 24
+[26-Jun-2017 12:26:10] PHP Notice:  Use of undefined constant yellow - assumed 'yellow' in /vagrant/site/color.php on line 25
+[26-Jun-2017 12:26:10] PHP Notice:  Use of undefined constant blue - assumed 'blue' in /vagrant/site/color.php on line 26
+[26-Jun-2017 17:28:06] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:06] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:07] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:07] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:08] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:08] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:08] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:08] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:09] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:09] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:38] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 17:28:38] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 6 and defined in /vagrant/site/colorcalc.php on line 13
+[26-Jun-2017 12:40:00] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 12:40:00] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 12:40:00] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 12:40:22] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 12:40:22] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 12:40:22] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 12:44:10] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 48
+[26-Jun-2017 12:44:10] PHP Notice:  Undefined variable: color2 in /vagrant/site/colorcalc.php on line 55
+[26-Jun-2017 12:44:15] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 48
+[26-Jun-2017 12:44:15] PHP Notice:  Undefined variable: color2 in /vagrant/site/colorcalc.php on line 55
+[26-Jun-2017 12:44:18] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 48
+[26-Jun-2017 12:44:18] PHP Notice:  Undefined variable: color2 in /vagrant/site/colorcalc.php on line 55
+[26-Jun-2017 17:50:48] PHP Parse error:  syntax error, unexpected '{' in /vagrant/site/colorcalc.php on line 23
+[26-Jun-2017 12:56:32] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 12:56:32] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 12:56:32] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 18:03:12] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:12] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:12] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:12] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:13] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:13] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:13] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:03:13] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:05:47] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:05:47] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 13:05:47] PHP Notice:  Undefined variable: orange in /vagrant/site/colorcalc.php on line 27
+[26-Jun-2017 18:06:02] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:06:02] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 12
+[26-Jun-2017 18:06:12] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:12] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:17] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:17] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:17] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:17] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:20] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:20] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:54] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:06:54] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:22:16] PHP Parse error:  syntax error, unexpected ':' in /vagrant/site/colorcalc.php on line 6
+[26-Jun-2017 18:24:54] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:54] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:54] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:54] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:55] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:55] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:55] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:55] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:56] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:56] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:56] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:56] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:56] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:56] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:24:56] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:24:56] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:04] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:04] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:04] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:04] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:05] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:05] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:05] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:05] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:06] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:06] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:06] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:06] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:06] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:06] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:06] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:06] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:08] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:08] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:08] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:08] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:20] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:25:20] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:25:20] PHP Warning:  include(orange): failed to open stream: No such file or directory in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:20] PHP Warning:  include(): Failed opening 'orange' for inclusion (include_path='.:/vagrant/site/config/:/vagrant/site/') in /vagrant/site/colorcalc.php on line 5
+[26-Jun-2017 18:25:52] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:25:52] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:25:58] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:58] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:58] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:58] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:59] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:59] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:59] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:25:59] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:26:01] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:26:01] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 20
+[26-Jun-2017 18:26:06] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:26:06] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:26:28] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:26:28] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:26:42] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:26:42] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:26:45] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:26:45] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 19
+[26-Jun-2017 18:27:03] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:27:03] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:27:04] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:27:04] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:27:04] PHP Warning:  Missing argument 1 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 18:27:04] PHP Warning:  Missing argument 2 for AddColors(), called in /vagrant/site/colorcalc.php on line 5 and defined in /vagrant/site/colorcalc.php on line 25
+[26-Jun-2017 13:41:36] PHP Notice:  Use of undefined constant AddColors - assumed 'AddColors' in /vagrant/site/colorcalc.php on line 37
+[26-Jun-2017 13:44:03] PHP Fatal error:  Call to undefined function AddColor() in /vagrant/site/colorcalc.php on line 35
+[26-Jun-2017 13:53:40] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 31
+[26-Jun-2017 13:53:40] PHP Notice:  Undefined variable: color2 in /vagrant/site/colorcalc.php on line 31
+[26-Jun-2017 13:58:33] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 13:58:33] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 13:58:33] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 13:59:16] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 13:59:16] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 13:59:16] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 14:00:53] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 27
+[26-Jun-2017 14:00:53] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 29
+[26-Jun-2017 14:03:23] PHP Notice:  Undefined index: color1 in /vagrant/site/colorcalc.php on line 31
+[26-Jun-2017 14:03:23] PHP Notice:  Undefined index: color2 in /vagrant/site/colorcalc.php on line 31
+[26-Jun-2017 14:03:42] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 29
+[26-Jun-2017 14:04:26] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:06:54] PHP Notice:  Undefined index: color1 in /vagrant/site/colorcalc.php on line 26
+[26-Jun-2017 14:06:54] PHP Notice:  Undefined index: color2 in /vagrant/site/colorcalc.php on line 26
+[26-Jun-2017 14:11:44] PHP Notice:  Undefined variable: sos in /vagrant/site/colorcalc.php on line 50
+[26-Jun-2017 14:12:58] PHP Notice:  Undefined index: color1 in /vagrant/site/colorcalc.php on line 26
+[26-Jun-2017 14:12:58] PHP Notice:  Undefined index: color2 in /vagrant/site/colorcalc.php on line 26
+[26-Jun-2017 14:19:56] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:21:39] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 15
+[26-Jun-2017 14:21:39] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:21:44] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 15
+[26-Jun-2017 14:21:44] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:22:24] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:22:27] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 24
+[26-Jun-2017 14:23:57] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 44
+[26-Jun-2017 14:23:58] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 49
+[26-Jun-2017 14:23:58] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 49
+[26-Jun-2017 14:23:58] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 53
+[26-Jun-2017 14:24:03] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 44
+[26-Jun-2017 14:24:03] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 49
+[26-Jun-2017 14:24:03] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 49
+[26-Jun-2017 14:24:03] PHP Notice:  Undefined variable: blue in /vagrant/site/colorcalc.php on line 53
+[26-Jun-2017 14:27:52] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 14:27:52] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 14:27:52] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
