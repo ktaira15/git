@@ -329,3 +329,14 @@
 [26-Jun-2017 14:27:52] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
 [26-Jun-2017 14:27:52] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
 [26-Jun-2017 14:27:52] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 15:22:20] PHP Notice:  Undefined index: param1 in /vagrant/site/index.php on line 40
+[26-Jun-2017 15:22:20] PHP Notice:  Undefined index: param2 in /vagrant/site/index.php on line 41
+[26-Jun-2017 15:22:20] PHP Warning:  Division by zero in /vagrant/site/index.php on line 13
+[26-Jun-2017 21:38:55] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /vagrant/site/index.php on line 13
+[26-Jun-2017 16:46:21] PHP Notice:  Undefined variable: color in /vagrant/site/colorcalc.php on line 41
+[26-Jun-2017 21:47:50] PHP Parse error:  syntax error, unexpected '}' in /vagrant/site/colorcalc.php on line 43
+[26-Jun-2017 21:48:05] PHP Parse error:  syntax error, unexpected '}' in /vagrant/site/colorcalc.php on line 43
+[26-Jun-2017 21:48:05] PHP Parse error:  syntax error, unexpected '}' in /vagrant/site/colorcalc.php on line 43
+[26-Jun-2017 16:48:50] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 58
+[26-Jun-2017 16:49:01] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 50
+[26-Jun-2017 16:49:02] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 50
