@@ -93,7 +93,7 @@ body {
 
 /**CH02 - Home **/
 .HomeImage {
-  background-image: url("North.png");
+  background-image: url("HTML/North.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -183,12 +183,14 @@ body {
   max-width: 40%;
   height: auto;
   text-align: center;
+  display: inline-block;
+
 }
 .StoryPosts img {
-  padding-left: 37%;
-  padding-right: 37%;
+  padding-left: 38%;
+  padding-right: 30%;
   margin-top: 60px;
-  width: 74%;
+  max-width: 65%;
   height: auto;
   caption-side: bottom;
   margin-bottom: 5px;
@@ -197,7 +199,7 @@ body {
   padding-top: 10px;
   padding-bottom: 35px;
   display: inline-block;
-  padding-left: 48%;
+  padding-left: 40%;
   font-size: 16px;
   text-align: center;
   vertical-align: top;
@@ -258,6 +260,7 @@ body {
 
 /** CH05 - Posts **/
 .PostTitle {
+  align-items: center;
   text-align: center;
   color: #98ccd1;
   font-family: "Raleway", sans-serif;
@@ -267,7 +270,7 @@ body {
   padding-bottom: 30px;
 }
 .PostLeft img {
-  width: 100%;
+  width: auto;
   float: left;
   height: auto;
   display: block;
@@ -277,7 +280,7 @@ body {
   max-height: 400px;
 }
 .PostRight img {
-  width: 100%;
+  width: auto;
   float: right;
   height: auto;
   display: block;

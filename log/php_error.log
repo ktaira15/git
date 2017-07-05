@@ -340,3 +340,81 @@
 [26-Jun-2017 16:48:50] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 58
 [26-Jun-2017 16:49:01] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 50
 [26-Jun-2017 16:49:02] PHP Notice:  Undefined variable: color1 in /vagrant/site/colorcalc.php on line 50
+[26-Jun-2017 21:50:49] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /vagrant/site/index.php on line 13
+[28-Jun-2017 14:24:52] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /vagrant/site/index.php on line 13
+[28-Jun-2017 14:30:55] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /vagrant/site/index.php on line 13
+[28-Jun-2017 15:04:50] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:04:51] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:05:10] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:05:11] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:05:53] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:05:54] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:06:30] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:06:30] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:07:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:07:02] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 14
+[28-Jun-2017 15:08:22] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 13
+[28-Jun-2017 15:09:13] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 13
+[28-Jun-2017 15:09:13] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 13
+[28-Jun-2017 10:28:02] PHP Notice:  Use of undefined constant siteHeader - assumed 'siteHeader' in /vagrant/site/index.php on line 17
+[28-Jun-2017 10:29:25] PHP Warning:  Missing argument 1 for siteHeader(), called in /vagrant/site/index.php on line 17 and defined in /vagrant/site/index.php on line 13
+[28-Jun-2017 10:29:55] PHP Notice:  Undefined variable: navBar in /vagrant/site/index.php on line 19
+[28-Jun-2017 15:30:24] PHP Parse error:  syntax error, unexpected ')' in /vagrant/site/index.php on line 19
+[28-Jun-2017 15:30:39] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:30:59] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:30:59] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:31:00] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:31:25] PHP Parse error:  syntax error, unexpected ')' in /vagrant/site/index.php on line 19
+[28-Jun-2017 15:31:26] PHP Parse error:  syntax error, unexpected ')' in /vagrant/site/index.php on line 19
+[28-Jun-2017 15:32:13] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 21
+[28-Jun-2017 10:33:09] PHP Notice:  Undefined offset: -3 in /vagrant/site/index.php on line 21
+[28-Jun-2017 15:38:34] PHP Parse error:  syntax error, unexpected '/' in /vagrant/site/index.php on line 20
+[28-Jun-2017 15:38:49] PHP Parse error:  syntax error, unexpected '<' in /vagrant/site/index.php on line 20
+[28-Jun-2017 10:39:01] PHP Notice:  Undefined variable: navBar in /vagrant/site/index.php on line 17
+[28-Jun-2017 15:39:29] PHP Parse error:  syntax error, unexpected T_GLOBAL in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:40:58] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:11] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:11] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:36] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:36] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:37] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:47] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:48] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:48] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:41:59] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:42:23] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW, expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:42:32] PHP Parse error:  syntax error, unexpected T_LNUMBER, expecting ']' in /vagrant/site/index.php on line 18
+[28-Jun-2017 15:44:04] PHP Parse error:  syntax error, unexpected T_STRING, expecting '(' in /vagrant/site/index.php on line 16
+[04-Jul-2017 12:15:22] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 12:15:29] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 12:15:38] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 12:15:59] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 12:20:02] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 12:20:10] PHP Parse error:  syntax error, unexpected T_STRING in /vagrant/site/include/header.php on line 13
+[04-Jul-2017 18:04:04] PHP Fatal error:  Call to undefined function echoFooterHTML() in /vagrant/site/index.php on line 53
+[04-Jul-2017 18:44:14] PHP Warning:  Module 'http' already loaded in Unknown on line 0
+[04-Jul-2017 13:56:03] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 13:57:58] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 13:58:24] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 13:58:25] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 13:58:59] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 13:59:14] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:00:17] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:01:01] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:01:32] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:01:39] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:01:51] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:02:36] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:02:57] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 9
+[04-Jul-2017 14:03:57] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:03:58] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:04:17] PHP Notice:  Use of undefined constant Living - assumed 'Living' in /vagrant/site/Niche/alone.php on line 4
+[04-Jul-2017 14:04:17] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:04:17] PHP Notice:  Use of undefined constant Living - assumed 'Living' in /vagrant/site/Niche/alone.php on line 4
+[04-Jul-2017 14:04:17] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:04:23] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:04:24] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:05:07] PHP Notice:  Undefined variable: PostTitle in /vagrant/site/include/postFormat.php on line 8
+[04-Jul-2017 14:15:03] PHP Fatal error:  Call to undefined function postTitle() in /vagrant/site/Niche/inspo.php on line 17
+[04-Jul-2017 20:24:57] PHP Parse error:  syntax error, unexpected '}' in /vagrant/site/Niche/viewPost.php on line 5
+[04-Jul-2017 20:25:24] PHP Notice:  Undefined index: postId in /vagrant/site/Niche/viewPost.php on line 3

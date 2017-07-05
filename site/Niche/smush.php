@@ -1,30 +1,11 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600">
-    <title>
-      day trip
-    </title>
-  </head>
-  <body>
-    <div class="NavBar">
-      <ul>
-        <a href="Home.html">
-        <img src="icon.png">
-        </a>
-        <li><a href="Inspo.html">inspiration</a></li>
-        <li><a href="Series.html">anthologies</a></li>
-        <li><a href="Stories.html">stories</a></li>
-      </ul>
-    </div>
-    <div class="Padding">
-    </div>
-    <div class="PostTitle">
-      day trip
-    </div>
+<?php
+  include ('config/init.php');
+  echo echoHeaderHTML('Day Trip');
+  echo postFormat('day trip');
+?>
     <div class="PostText">
       <div class="PostLeft">
-        <img src="inspo/inspo6.jpg">
+        <img src="html/inspo/inspo6.jpg">
       </div>
       <p><i>have you ever listened to "kubla khan" in the middle of the afternoon with all your colors moving? then this is for you</i></p>
       <hr>
@@ -38,7 +19,7 @@
       <p>Sea volumus accusata consectetuer ne. Eu neglegentur contentiones vel, vix cu tamquam dolorum volumus. No mel accusamus temporibus, exerci vidisse ullamcorper nec an. Et mea diam mutat constituam, mea te labitur diceret, per sensibus eleifend philosophia ad. Nihil placerat necessitatibus mel id, ex nam vivendo gubergren, tibique facilisis ne pro.</p>
       <p>Lorem ipsum dolor sit amet, maiorum offendit in eam, an eos inciderint adversarium, ea eos ignota concludaturque. Dolore viderer accusam cum ea, et dicit docendi quaerendum quo, eum tota deleniti percipitur ne. In vel cetero mentitum, etiam movet ea mea, mei at aperiam reprimique. No his melius euismod assueverit, ne usu iudico scripta utroque, vocent luptatum periculis vix ex. Pro civibus evertitur te, porro facer doming eu vix, cu utamur corpora recteque quo.</p>
       <div class="PostRight">
-        <img src="home/smush/rise.jpg">
+        <img src="html/home/smush/rise.jpg">
       </div>
       <p>An rationibus referrentur neglegentur mei, ei est justo nostro facilisis, ne per numquam salutandi. Per cibo inimicus democritum eu, in viris equidem pertinacia ius. Impetus aliquam mei te, case pertinacia vis ut. Ea natum reque comprehensam ius, cum in albucius appetere apeirian. Doming vulputate pro ad, mel alii legendos gloriatur te, est populo essent id.</p>
       <p>Dicant philosophia eu duo. In sit alia numquam. Nam te simul libris maiorum. Ne sed justo lucilius theophrastus, ei constituam reprehendunt mel, vix eros fugit democritum id. Per an graeco accusata, exerci salutatus mel ex, sea cu decore apeirian. Vix at quando persius invenire.</p>
@@ -49,7 +30,7 @@
       <p>Dicant philosophia eu duo. In sit alia numquam. Nam te simul libris maiorum. Ne sed justo lucilius theophrastus, ei constituam reprehendunt mel, vix eros fugit democritum id. Per an graeco accusata, exerci salutatus mel ex, sea cu decore apeirian. Vix at quando persius invenire.</p>
       <p>Rebum tation delicata cu eam. Ad mei perfecto recteque liberavisse, accusata signiferumque quo ad. Et graece constituto est. Ei habeo reformidans eum. Eum ei exerci detracto ponderum.</p>
       <div class="PostLeft">
-        <img src="home/smush/surprise.jpg">
+        <img src="html/home/smush/surprise.jpg">
       </div>
       <p>Sea volumus accusata consectetuer ne. Eu neglegentur contentiones vel, vix cu tamquam dolorum volumus. No mel accusamus temporibus, exerci vidisse ullamcorper nec an. Et mea diam mutat constituam, mea te labitur diceret, per sensibus eleifend philosophia ad. Nihil placerat necessitatibus mel id, ex nam vivendo gubergren, tibique facilisis ne pro.</p>
       <p>Lorem ipsum dolor sit amet, maiorum offendit in eam, an eos inciderint adversarium, ea eos ignota concludaturque. Dolore viderer accusam cum ea, et dicit docendi quaerendum quo, eum tota deleniti percipitur ne. In vel cetero mentitum, etiam movet ea mea, mei at aperiam reprimique. No his melius euismod assueverit, ne usu iudico scripta utroque, vocent luptatum periculis vix ex. Pro civibus evertitur te, porro facer doming eu vix, cu utamur corpora recteque quo.</p>
@@ -58,34 +39,7 @@
       <p>Rebum tation delicata cu eam. Ad mei perfecto recteque liberavisse, accusata signiferumque quo ad. Et graece constituto est. Ei habeo reformidans eum. Eum ei exerci detracto ponderum.</p>
       <p>Sea volumus accusata consectetuer ne. Eu neglegentur contentiones vel, vix cu tamquam dolorum volumus. No mel accusamus temporibus, exerci vidisse ullamcorper nec an. Et mea diam mutat constituam, mea te labitur diceret, per sensibus eleifend philosophia ad. Nihil placerat necessitatibus mel id, ex nam vivendo gubergren, tibique facilisis ne pro.</p>
     </div>
-    <div class="CreditText">
-      <p>words: katelyn taira</p>
-      <p>photography: katelyn taira, spencer tong</p>
-    </div>
-    <div class="EndBuffer">
-    </div>
-    <div class="Updates">
-      <p>NEWSLETTER SIGNUP</p>
-      <form action="blank">
-        <input type="email" name="email" placeholder="email address"><br>
-      </form>
-      <a href="blank">
-        <div class="SubmitButton">
-          submit
-        </div>
-      </a>
-    </div>
-    <div class="footer">
-      <ul>
-        <li>©Katelyn Taira 2017</li>
-      </ul>
-      <ul>
-        <li><a href="home.html">home</a></li>
-        <li><a href="Stories.html">stories</a></li>
-        <li><a href="Series.html">anthologies</a></li>
-        <li><a href="Inspo.html">inspiration</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
+  <?php
+    echo echoCreditText('katelyn taira', 'katelyn taira and spencer tong');
+    echo echoFooterHTML();
+   ?>

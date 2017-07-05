@@ -1,30 +1,11 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,600">
-    <title>
-      Stories
-    </title>
-  </head>
-  <body>
-    <div class="NavBar">
-      <ul>
-        <a href="Home.html">
-        <img src="icon.png">
-        </a>
-        <li><a href="Inspo.html">inspiration</a></li>
-        <li><a href="Series.html">anthologies</a></li>
-        <li><a href="Stories.html">stories</a></li>
-      </ul>
-    </div>
-    <div class="Padding">
-    </div>
-    <div class="PostTitle">
-      stories
-    </div>
+<?php
+include ('config/init.php');
+echo echoHeaderHTML('Stories');
+echo postFormat('stories');
+?>
     <div class="StoryPosts">
       <a href="alone.html">
-        <img src="home/alone/alone.jpg">
+        <img src="html/home/alone/alone.jpg">
         <div class="StoryPad">
           the importance of living alone
         </div>
@@ -32,7 +13,7 @@
     </div>
     <div class="StoryPosts">
       <a href="street.html">
-        <img src="journey/meadows/camo.jpg">
+        <img src="html/journey/meadows/camo.jpg">
         <div class="StoryPad">
           street wear naturalized
         </div>
@@ -40,7 +21,7 @@
     </div>
     <div class="StoryPosts">
       <a href="smush.html">
-        <img src="inspo/inspo6.jpg">
+        <img src="html/inspo/inspo6.jpg">
         <div class="StoryPad">
           day trip
         </div>
@@ -48,7 +29,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="journey/windy/windy.jpg">
+        <img src="html/journey/windy/windy.jpg">
         <div class="StoryPad">
           windy city
         </div>
@@ -56,7 +37,7 @@
     </div>
     <div class="StoryPosts">
       <a href="Post3.html">
-        <img src="journey/wasted/wasted.jpg">
+        <img src="html/journey/wasted/wasted.jpg">
         <div class="StoryPad">
           how to look good while wasted
         </div>
@@ -64,7 +45,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="convo/time/friends.jpg">
+        <img src="html/convo/time/friends.jpg">
         <div class="StoryPad">
           friendship between continents
         </div>
@@ -72,7 +53,7 @@
     </div>
     <div class="StoryPosts">
       <a href="Post3.html">
-        <img src="convo/boat/boat.jpg">
+        <img src="html/convo/boat/boat.jpg">
         <div class="StoryPad">
           boats and hoes: to be young and abroad with your best friends
         </div>
@@ -80,7 +61,7 @@
     </div>
     <div class="StoryPosts">
       <a href="Post3.html">
-        <img src="desk/theater/theater.jpg">
+        <img src="html/desk/theater/theater.jpg">
         <div class="StoryPad">
           on futurism, the stage, and bouncy balls
         </div>
@@ -88,7 +69,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="home/bench/bench.jpg">
+        <img src="html/home/bench/bench.jpg">
         <div class="StoryPad">
           swinging life away
         </div>
@@ -96,7 +77,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="journey/explore.jpg">
+        <img src="html/journey/explore.jpg">
         <div class="StoryPad">
           queen of the castle
         </div>
@@ -104,7 +85,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="desk/blue/write.jpg">
+        <img src="html/desk/blue/write.jpg">
         <div class="StoryPad">
           how to sneak an underage girl into a club and document it
         </div>
@@ -112,7 +93,7 @@
     </div>
     <div class="StoryPosts">
       <a href="friends.html">
-        <img src="convo/convo.jpg">
+        <img src="html/convo/convo.jpg">
         <div class="StoryPad">
           longview: 16 years and 6000 miles of friendship
         </div>
@@ -120,7 +101,7 @@
     </div>
     <div class="StoryPosts">
       <a href="sc.html">
-        <img src="journey/sc/sc.jpg">
+        <img src="html/journey/sc/sc.jpg">
         <div class="StoryPad">
           you girls can't go to santa cruz
         </div>
@@ -128,34 +109,12 @@
     </div>
     <div class="StoryPosts">
       <a href="Post3.html">
-        <img src="convo/emo.jpg">
+        <img src="html/convo/emo.jpg">
         <div class="StoryPad">
           help! my friends is emo
         </div>
       </a>
     </div>
-    <div class="Updates">
-      <p>NEWSLETTER SIGNUP</p>
-      <form action="blank">
-        <input type="email" name="email" placeholder="email address"><br>
-      </form>
-      <a href="blank">
-      <div class="SubmitButton">
-        submit
-      </div>
-    </a>
-    </div>
-    <div class="footer">
-      <ul>
-        <li>©Katelyn Taira 2017</li>
-      </ul>
-      <ul>
-        <li><a href="home.html">home</a></li>
-        <li><a href="Stories.html">stories</a></li>
-        <li><a href="Series.html">anthologies</a></li>
-        <li><a href="Inspo.html">inspiration</a></li>
-        <li><a href="contact.html">contact</a></li>
-      </ul>
-    </div>
-  </body>
-</html>
+<?php
+echo echoFooterHTML();
+ ?>
