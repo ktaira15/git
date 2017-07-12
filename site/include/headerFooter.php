@@ -1,5 +1,5 @@
 <?php
-function echoHeaderHTML($title){
+function headerHTML($title){
   return "
   <html>
     <head>
@@ -19,14 +19,16 @@ function echoHeaderHTML($title){
           <li><a href='Series.html'>anthologies</a></li>
           <li><a href='Stories.html'>stories</a></li>
         </ul>
+      </div>
+      </div>
+      </div>
       </div>";
 }
 
-function echoFooterHTML(){
+function footerHTML(){
   return "
-
-      <div class='EndBuffer'>
-      </div>
+  <div class='EndBuffer'>
+  </div>
       <div class='Updates'>
         <p>NEWSLETTER SIGNUP</p>
         <form action='blank'>
@@ -55,7 +57,7 @@ function echoFooterHTML(){
 }
 /*
 put padding and posttitle and shit here
-also include footer cfvgbhjn
+also include footer
 and then add function to all existing pages
 next step--make template for all post pages
 then can later ask tyler about a database for them instead of 2x2 array*/

@@ -1,26 +1,32 @@
 <?php
-function postFormat($postTitle){
+function postFormat($title){
   return "
       <div class='Padding'>
       </div>
       <div class='PostTitle'>
-        $postTitle
+        $title
+      </div>
+      </div>
       </div>";
 }
 
-function echoCreditText($words, $photo){
+function wordCredit($words){
   return "
   <html>
-    <head>
-      <link rel='stylesheet' type='text/css' href='stylesheet.css'>
-      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300,400,600'>
-    </head>
-    <body>
-      <div class='CreditText'>
-        <p>words: $words</p>
-        <p>photography: $photo</p>
-      </div>
-    </body>
+    <div class='CreditText'>
+      <p>words: $words</p>
+  </html>";
+}
+
+function photoCredit($photos){
+  return "
+  <html>
+    <p>photography: $photos</p>
+    </div>
+    <div class='EndBuffer'>
+    </div>
+    </div>
+    </div>
   </html>";
 }
 /*okay, but what do i do with these once i make that huge array...*/

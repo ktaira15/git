@@ -20,7 +20,7 @@
       new in the collection
   </div>
   <div class="StoryPosts">
-  <a href="smush.html">
+  <a href="/Niche/viewPost.php?postID=0">
     <img src="HTML/inspo/inspo6.jpg">
     <div class="StoryPad">
       day trip

@@ -1,6 +1,6 @@
 <?php
   include ('config/init.php');
-  echo echoHeaderHTML('Day Trip');
+  echo headerHTML('Day Trip');
   echo postFormat('day trip');
 ?>
     <div class="PostText">
@@ -40,6 +40,5 @@
       <p>Sea volumus accusata consectetuer ne. Eu neglegentur contentiones vel, vix cu tamquam dolorum volumus. No mel accusamus temporibus, exerci vidisse ullamcorper nec an. Et mea diam mutat constituam, mea te labitur diceret, per sensibus eleifend philosophia ad. Nihil placerat necessitatibus mel id, ex nam vivendo gubergren, tibique facilisis ne pro.</p>
     </div>
   <?php
-    echo echoCreditText('katelyn taira', 'katelyn taira and spencer tong');
-    echo echoFooterHTML();
+    echo footerHTML();
    ?>
