@@ -47,11 +47,10 @@
       else{
         $combo = 'white';
       }
-
       echo "
         <style>
           body {
-            padding: 20%;
+            padding: 22%;
             text-align: center;
             background-color: $combo;
           }
