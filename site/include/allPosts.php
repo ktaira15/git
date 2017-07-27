@@ -1,38 +1,57 @@
 <?php
 function getPost($postID){
   $allPosts = getAllPosts();
-
-  /*$array = array(0=>"a", 1=>"b", 2=>"c");
-  you define literal whole content in here dude
-  said to also make a link to external stylesheet in one of my includes*/
 return headerHTML($allPosts[$postID]['title']).
 postFormat($allPosts[$postID]['title']).
 "<div class='PostText'>
 <div class='PostLeft'>
-  <img src='".$allPosts[$postID]['image1']. "'
+  <img src='".$allPosts[$postID]['image1']."'>
 </div>".
 $allPosts[$postID]['italics'].
-$allPosts[$postID]['body']."</div>".
+$allPosts[$postID]['body1']."</div>".
+"<div class='PostText'>
+<div class='PostRight'>
+  <img src='".$allPosts[$postID]['image2']. "'
+</div>".
+$allPosts[$postID]['body2']."</div>".
 wordCredit ($allPosts[$postID]['words']).
 photoCredit ($allPosts[$postID]['photos']);
 }
 
+/*you need to fix padding for posts, not centered on tablet*/
+
 function getAllPosts(){
   $allPostsArray = array(
     0 => array(
-      'postID' => 0,
+      /*I don't think I actually need this 'postID' => 0, */
       'title' => 'day trip',
-      'italics' => '<p><i>have you ever listened to "kubla khan" in the middle of the afternoon with all your colors moving? then this is for you</i></p>
-      <hr>',
-      'body' => 'this is a test my dude', /*how do i get body to format as i want to? is it all part of the include thing?*/
+      'italics' => '<p><i>A pointed summary of the article will go here.</i></p><hr>',
+      'body1' => 'Example text goes here. Something just occurred to me--I cannot use apostrophes in any text here, because it will end the string and render everything else invalid. This can be a huge potential problem, but I think switching over to a database may mitigate this.',
+      'body2' => 'Another issue is that I do not think I can add in my formatted photos without breaking up my body paragraphs. This is not a huge deal, sincee I essentially did this with divs in my HTML, but still a bit of a pain. I wonder if I do not have as many pictures or body text sections in other postIDs if it will mess up that formatting. I bet if I leave the string as blank, it will be fine. I should check on this at the office when I have vagrant set up.',
       'image1' => '/Niche/HTML/inspo/inspo6.jpg',
+      'image2' => '',
       'words' => 'katelyn taira',
       'photos' => 'katelyn taira and spencer tong'
     ),
     1 => array(
-      'postID' => 1,
       'title' => 'street wear naturalized',
-      'body' => 'and anotha one my guy'
+      'italics' => '<p><i>A pointed summary of the article will go here. This post is going to experiment in leaving image2 blank but body2 intact.</i></p><hr>',
+      'body1' => 'Example text goes here. Something just occurred to me--I cannot use apostrophes in any text here, because it will end the string and render everything else invalid. This can be a huge potential problem, but I think switching over to a database may mitigate this.',
+      'body2' => 'Another issue is that I do not think I can add in my formatted photos without breaking up my body paragraphs. This is not a huge deal, sincee I essentially did this with divs in my HTML, but still a bit of a pain. I wonder if I do not have as many pictures or body text sections in other postIDs if it will mess up that formatting. I bet if I leave the string as blank, it will be fine. I should check on this at the office when I have vagrant set up.',
+      'image1' => '/Niche/HTML/journey/meadows/sun.jpg',
+      'image2' => '',
+      'words' => 'katelyn taira',
+      'photos' => 'katelyn taira',
+    ),
+    2 => array(
+      'title' => 'on living alone',
+      'italics' => '<p><i>A pointed summary of the article will go here. This post is going to experiment in leaving image2 blank but body2 intact.</i></p><hr>',
+      'body1' => 'Example text goes here. Something just occurred to me--I cannot use apostrophes in any text here, because it will end the string and render everything else invalid. This can be a huge potential problem, but I think switching over to a database may mitigate this.',
+      'body2' => '',
+      'image1' => '/Niche/HTML/home/alone/alone.jpg',
+      'image2' => '',
+      'words' => 'katelyn taira',
+      'photos' =>'kyle matthews'
     )
   );
   return $allPostsArray;

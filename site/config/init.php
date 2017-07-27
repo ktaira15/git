@@ -5,3 +5,4 @@ include('include/db_query.php'); //this should happen right after config so othe
 include('include/headerFooter.php');
 include('include/postFormat.php');
 include('include/allPosts.php');
+include('include/storiesFormat.php');

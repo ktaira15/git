@@ -1,8 +1,10 @@
 <html>
   <div class="HomeImage">
     <?php
-      include ('config/init.php');
-      echo echoHeaderHTML('Niche Anthology');
+    include ('config/init.php');
+
+    /*you're going to have to make your series page and then the individual series look like this*/
+      echo headerHTML('Niche Anthology');
     ?>
     <div class="HomeHeading">
       <p>escape your</p>
@@ -18,40 +20,14 @@
     </div>
     <div class="PostTitle">
       new in the collection
-  </div>
-  <div class="StoryPosts">
-  <a href="/Niche/viewPost.php?postID=0">
-    <img src="HTML/inspo/inspo6.jpg">
-    <div class="StoryPad">
-      day trip
     </div>
-  </a>
-  </div>
-  <div class="StoryPosts">
-  <a href="Post3.html">
-    <img src="HTML/desk/theater/theater.jpg">
-    <div class="StoryPad">
-      on futurism, the stage, and bouncy balls
-    </div>
-  </a>
-  </div>
-  <div class="StoryPosts">
-  <a href="Post3.html">
-    <img src="HTML/convo/emo.jpg">
-    <div class="StoryPad">
-      help! my friends is emo
-    </div>
-  </a>
-  </div>
-  <div class="StoryPosts">
-  <a href="street.html">
-    <img src="HTML/journey/meadows/camo.jpg">
-    <div class="StoryPad">
-      street wear naturalized
-    </div>
-  </a>
-  </div>
+<?php
+$allPreviewArray = previewAllPosts();
+for($i = 0; $i < sizeof($allPreviewArray); $i++){
+  echo previewPost($i);
+}
+?>
 </html>
 <?php
-  echo echoFooterHTML();
+  echo footerHTML();
 ?>

@@ -13,7 +13,7 @@
   width: 100%;
   list-style-type: none;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 18px;
   padding-top: 4px;
   overflow: hidden;
   background-color: #ffffff;
@@ -25,7 +25,7 @@
 }
 .NavBar li a {
   display: block;
-  padding: 14px 27px;
+  padding: 14px 25px;
   text-decoration: none;
   float: right;
   color: black;
@@ -93,6 +93,7 @@ body {
 
 /**CH02 - Home **/
 .HomeImage {
+  margin: 0px -8.5px;
   background-image: url("HTML/North.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -120,7 +121,6 @@ body {
 }
 .HomeText {
   padding-left: 15px;
-  padding-right: 5px;
 }
 .SubmitButton {
   background-color: #ffffff;
@@ -178,49 +178,36 @@ body {
 }
 
 /** CH03 - Stories **/
+.BigDiv{
+  left: 16%;
+  position: relative;
+  display: inline-block;
+  min-width: 35%;
+  align-items: center;
+}
 .StoryPosts {
-  display: inline-block;
-  max-width: 40%;
-  height: auto;
-  text-align: center;
-  display: inline-block;
 
 }
 .StoryPosts img {
-  padding-left: 38%;
-  padding-right: 30%;
   margin-top: 60px;
-  max-width: 65%;
-  height: auto;
   caption-side: bottom;
   margin-bottom: 5px;
+  width: 480px;
 }
 .StoryPad {
   padding-top: 10px;
   padding-bottom: 35px;
-  display: inline-block;
-  padding-left: 40%;
   font-size: 16px;
-  text-align: center;
-  vertical-align: top;
-}
-.StoryNavPad {
-  padding-top: 50px;
 }
 .StoryPosts a {
   text-decoration: none;
   color: black;
   letter-spacing: 4px;
-  opacity: .85;
+  opacity: .80;
+  align-items: center;
 }
 .StoryPosts a:hover {
-  opacity: .99;
-  transform: scale(1.07);
-}
-
-.StoryPosts img:hover {
-  transition: .5s ease;
-  transform: scale(1.05);
+  opacity: 1;
 }
 
 /**CH04 - Series **/

@@ -19,9 +19,6 @@ function headerHTML($title){
           <li><a href='Series.html'>anthologies</a></li>
           <li><a href='Stories.html'>stories</a></li>
         </ul>
-      </div>
-      </div>
-      </div>
       </div>";
 }
 
