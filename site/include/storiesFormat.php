@@ -2,7 +2,6 @@
 function previewPost($postID){
   $postPreview = previewAllPosts();
 echo "</div>
-<div class=BigDiv>
 <div class='StoryPosts'>
   <a href='".$postPreview[$postID]['link']."'>
     <img src='".$postPreview[$postID]['image']."'>
@@ -10,8 +9,7 @@ echo "</div>
       $postPreview[$postID]['title'].
     "</div>
   </a>
-</div>
-</div>";
+</div";
 
 }
 
