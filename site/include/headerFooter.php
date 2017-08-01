@@ -4,6 +4,7 @@ function headerHTML($title){
   <html>
     <head>
       <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+      <link rel='stylesheet' type='text/css' href='grid.css'>
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300,400,600'>
       <title>
         $title
@@ -19,11 +20,15 @@ function headerHTML($title){
           <li><a href='Series.html'>anthologies</a></li>
           <li><a href='Stories.html'>stories</a></li>
         </ul>
-      </div>";
+      </div>
+      ";
 }
 
 function footerHTML(){
   return "
+  </div>
+  </div>
+  </div>
   <div class='EndBuffer'>
   </div>
       <div class='Updates'>

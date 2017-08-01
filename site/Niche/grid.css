@@ -1,0 +1,32 @@
+* {box-sizing: border-box;}
+.grid {
+  display: grid;
+  grid-template-columns: minmax(150px, 550px) minmax(150px, 550px);
+  grid-gap: 6%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.grid div {
+  border-color: black;
+  font-size: 16px;
+  color: black;
+  letter-spacing: 4px;
+  text-align: center;
+}
+
+.grid img {
+  margin-bottom: -2px;
+  max-width: 100%;
+  min-width: 150px;
+}
+
+.grid a {
+  text-decoration: none;
+  color: black;
+  letter-spacing: 4px;
+  opacity: .80;
+}
+
+.grid a:hover {
+  opacity: 1;

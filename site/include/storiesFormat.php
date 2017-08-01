@@ -1,16 +1,15 @@
 <?php
 function previewPost($postID){
   $postPreview = previewAllPosts();
-echo "</div>
-<div class='StoryPosts'>
+echo "
+<div>
   <a href='".$postPreview[$postID]['link']."'>
     <img src='".$postPreview[$postID]['image']."'>
-    <div class='StoryPad'>".
+    <p>".
       $postPreview[$postID]['title'].
-    "</div>
+    "</p>
   </a>
-</div";
-
+  </div>";
 }
 
 function previewAllPosts(){

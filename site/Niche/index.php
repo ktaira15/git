@@ -21,12 +21,17 @@
     <div class="PostTitle">
       new in the collection
     </div>
-<?php
-$allPreviewArray = previewAllPosts();
-for($i = 0; $i < sizeof($allPreviewArray); $i++){
-  echo previewPost($i);
-}
-?>
+
+<div class="grid">
+          <?php
+          $allPreviewArray = previewAllPosts();
+          for($i = 0; $i < sizeof($allPreviewArray); $i++){
+            echo previewPost($i);
+          }
+          ?>
+</div>
+</div>
+</div>
 </html>
 <?php
   echo footerHTML();

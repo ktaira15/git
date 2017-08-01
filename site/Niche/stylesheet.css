@@ -178,13 +178,6 @@ body {
 }
 
 /** CH03 - Stories **/
-.StoryPosts {
-  left: 16%;
-  position: relative;
-  display: inline-block;
-  min-width: 35%;
-  align-items: center;
-}
 .StoryPosts img {
   margin-top: 60px;
   caption-side: bottom;
