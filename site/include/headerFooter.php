@@ -5,6 +5,7 @@ function headerHTML($title){
     <head>
       <link rel='stylesheet' type='text/css' href='stylesheet.css'>
       <link rel='stylesheet' type='text/css' href='grid.css'>
+      <link rel='stylesheet' type='text/css' href='mobile.css'>
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300,400,600'>
       <title>
         $title

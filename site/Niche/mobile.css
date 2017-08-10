@@ -1,0 +1,67 @@
+@media (max-width: 500px) {
+  .NavBar img {
+    max-height: 35px;
+    margin-left: -25px;
+  }
+  .NavBar li a {
+    font-size: 13px;
+    padding: 10px;
+    font-weight: 400;
+  }
+  .HomeHeading {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 250px;
+    letter-spacing: 7px;
+  }
+  .Title {
+    font-size: 65px;
+    margin-top: -25px;
+    font-weight: 400;
+    letter-spacing: 35px;
+    padding-left: 16px;
+  }
+  .HomePullQuote {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 28px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .StoryPad {
+    padding-top: 15px;
+    padding-bottom: -10px;
+  }
+  .PostTitle {
+    font-size: 35px;
+    letter-spacing: 7px;
+    padding-bottom: 30px;
+  }
+  .grid {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .grid img {
+    margin-bottom: -2px;
+    max-width: 290px;
+    min-width: 150px;
+  }
+  .grid a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    opacity: 1;
+    padding-bottom: 200px;
+  }
+  .grid p {
+    padding-top: -10px;
+    padding-bottom: 30px;
+    font-size: 16px;
+  }
+  .footer ul {
+    padding-left: 55px;
+  }
+  .EndBuffer {
+    padding-bottom: 5px;
+  }

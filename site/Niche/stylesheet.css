@@ -13,7 +13,6 @@
   width: 100%;
   list-style-type: none;
   margin: 0;
-  padding-left: 18px;
   padding-top: 4px;
   overflow: hidden;
   background-color: #ffffff;
@@ -93,7 +92,7 @@ body {
 
 /**CH02 - Home **/
 .HomeImage {
-  margin: 0px -8.5px;
+  margin: 0px -7.5px;
   background-image: url("HTML/North.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -107,16 +106,16 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #333333;
-  padding-top: 18%;
+  padding-top: 20%;
   letter-spacing: 8px;
 }
 .Title {
   color: #98ccd1;
   text-align: center;
   font-size: 120px;
+  margin-top: -90px;
   font-family: "Raleway", sans-serif;
-  font-weight: 350;
-  margin-top: -120px;
+  font-weight: 300;
   letter-spacing: 55px;
 }
 .HomeText {
@@ -154,13 +153,14 @@ body {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 2px;
   background-color: #87b8bc;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .Updates {
+  align-items: center;
   text-align: center;
   padding-left: 35%;
   padding-right: 35%;
@@ -174,6 +174,7 @@ body {
   padding-bottom: 30px;
 }
 .form {
+  align-items: center;
   font: inherit;
 }
 

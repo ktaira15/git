@@ -8,11 +8,11 @@
     ?>
     <div class="HomeHeading">
       <p>escape your</p>
-    </div>
     <div class="Title">
       <p>NICHE</p>
     </div>
   </div>
+</div>
     <div class="HomePullQuote">
       "Pull quote here--something inspiring and pithy that encapsulates project's vibe. Maybe something bordering contrived, because it needs to conform enough to audience's expectations."
     </div>
@@ -29,8 +29,7 @@
             echo previewPost($i);
           }
           ?>
-</div>
-</div>
+
 </div>
 </html>
 <?php

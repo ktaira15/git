@@ -28,7 +28,12 @@ function previewAllPosts(){
       'link' => '/Niche/viewPost.php?postID=2',
       'title' => 'on living alone',
       'image' => '/Niche/HTML/home/alone/alone.jpg'
-    )
+    ),
+    3 => array(
+      'link' => '/Niche/viewPost.php?postID=0',
+      'title' => 'day trip',
+      'image' => '/Niche/HTML/journey/wasted/wasted.jpg'
+    ),
   );
   return $allPreviewArray;
 }
