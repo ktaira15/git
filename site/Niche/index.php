@@ -14,11 +14,11 @@
   </div>
 </div>
     <div class="HomePullQuote">
-      "Pull quote here--something inspiring and pithy that encapsulates project's vibe. Maybe something bordering contrived, because it needs to conform enough to audience's expectations."
+      "Pull quote here--something inspiring and pithy that encapsulates project's vibe."
     </div>
     <div class="StoryPad">
     </div>
-    <div class="PostTitle">
+    <div class="Collection">
       new in the collection
     </div>
 
@@ -29,7 +29,6 @@
             echo previewPost($i);
           }
           ?>
-
 </div>
 </html>
 <?php

@@ -15,7 +15,6 @@ function headerHTML($title){
       <div class='NavBar'>
         <ul>
           <a href='index.php'>
-            <img src='HTML/icon.png'>
           </a>
           <li><a href='Inspo.html'>inspiration</a></li>
           <li><a href='Series.html'>anthologies</a></li>

@@ -5,7 +5,9 @@ return headerHTML($allPosts[$postID]['title']).
 postFormat($allPosts[$postID]['title']).
 "<div class='PostText'>
 <div class='PostLeft'>
+<div class='Zoom'>
   <img src='".$allPosts[$postID]['image1']."'>
+</div>
 </div>".
 $allPosts[$postID]['italics'].
 $allPosts[$postID]['body1']."</div>".
@@ -18,12 +20,9 @@ wordCredit ($allPosts[$postID]['words']).
 photoCredit ($allPosts[$postID]['photos']);
 }
 
-/*you need to fix padding for posts, not centered on tablet*/
-
 function getAllPosts(){
   $allPostsArray = array(
     0 => array(
-      /*I don't think I actually need this 'postID' => 0, */
       'title' => 'day trip',
       'italics' => '<p><i>A pointed summary of the article will go here.</i></p><hr>',
       'body1' => 'Example text goes here. Something just occurred to me--I cannot use apostrophes in any text here, because it will end the string and render everything else invalid. This can be a huge potential problem, but I think switching over to a database may mitigate this.',
@@ -31,7 +30,7 @@ function getAllPosts(){
       'image1' => '/Niche/HTML/inspo/inspo6.jpg',
       'image2' => '',
       'words' => 'katelyn taira',
-      'photos' => 'katelyn taira and spencer tong'
+      'photos' => 'katelyn taira'
     ),
     1 => array(
       'title' => 'street wear naturalized',
@@ -45,8 +44,8 @@ function getAllPosts(){
     ),
     2 => array(
       'title' => 'on living alone',
-      'italics' => '<p><i>A pointed summary of the article will go here. This post is going to experiment in leaving image2 blank but body2 intact.</i></p><hr>',
-      'body1' => 'Example text goes here. Something just occurred to me--I cannot use apostrophes in any text here, because it will end the string and render everything else invalid. This can be a huge potential problem, but I think switching over to a database may mitigate this.',
+      'italics' => '<p><i>A pointed summary of the article will go here in italics.</i></p><hr>',
+      'body1' => 'Example text goes here. Actual articles will include more body text as well as more associated photographs. A zoom for the photos will also be programmed in with jQuery effects.',
       'body2' => '',
       'image1' => '/Niche/HTML/home/alone/alone.jpg',
       'image2' => '',

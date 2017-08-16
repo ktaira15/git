@@ -1,33 +1,46 @@
 * {box-sizing: border-box;}
 .grid {
   display: grid;
-  grid-template-columns: minmax(150px, 600px) minmax(150px, 600px);
-  grid-gap: 10%;
-  margin-left: 14%;
-  margin-right: 14%;
+  grid-template-columns: minmax(200px, 600px) minmax(200px, 440px);
+  grid-column-gap: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 .grid div {
-  border-color: black;
-  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
   color: black;
-  letter-spacing: 4px;
+  font-size: 1.1em;
   text-align: center;
 }
 
 .grid img {
   margin-bottom: -2px;
   max-width: 100%;
-  min-width: 150px;
+  min-width: 200px;
 }
 
 .grid a {
   text-decoration: none;
   color: black;
-  letter-spacing: 4px;
   opacity: .80;
+  padding-top: 18%;
 }
 
 .grid a:hover {
-  transition: 1.02s;
+  transition: 1.01s;
   opacity: 1;
+}
+
+.grid p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 2.5em;
+  margin-top: 0px;
+  text-align: center;
+  letter-spacing: 7px;
+  margin-top: 40%;
+  margin-bottom: 15px;
+}

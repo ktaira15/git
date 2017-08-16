@@ -39,12 +39,11 @@
   }
   .grid {
     display: inline;
-    margin-left: 10%;
-    margin-right: 10%;
+    column-gap: 150px;
   }
   .grid img {
     margin-bottom: -2px;
-    max-width: 290px;
+    max-width: 310px;
     min-width: 150px;
   }
   .grid a {
@@ -52,12 +51,18 @@
     color: black;
     letter-spacing: 4px;
     opacity: 1;
-    padding-bottom: 200px;
+    padding: -60px;
   }
   .grid p {
-    padding-top: -10px;
-    padding-bottom: 30px;
-    font-size: 16px;
+    padding-top: 12px;
+    font-size: 18px;
+    margin-top: 0%;
+  }
+  .grid div {
+    font-size: 12.5px;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
   }
   .footer ul {
     padding-left: 55px;
@@ -65,3 +70,9 @@
   .EndBuffer {
     padding-bottom: 5px;
   }
+  .Collection {
+    font-size: 40px;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+}
+}

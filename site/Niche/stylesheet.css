@@ -39,7 +39,7 @@
 .NavBar img {
   float: left;
   height: inherit;
-  max-height: 60px;
+  max-height: 40px;
   margin-left: 26px;
   background-color: transparent;
   color: black;
@@ -93,7 +93,7 @@ body {
 /**CH02 - Home **/
 .HomeImage {
   margin: 0px -7.5px;
-  background-image: url("HTML/North.png");
+  background-image: url("HTML/skate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -106,13 +106,13 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #333333;
-  padding-top: 20%;
+  padding-top: 18%;
   letter-spacing: 8px;
 }
 .Title {
   color: #98ccd1;
   text-align: center;
-  font-size: 120px;
+  font-size: 140px;
   margin-top: -90px;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
@@ -158,6 +158,14 @@ body {
   background-color: #87b8bc;
   padding-top: 90px;
   padding-bottom: 90px;
+}
+.Collection {
+  text-align: center;
+  color: #98ccd1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  letter-spacing: 7px;
 }
 .Updates {
   align-items: center;
@@ -225,7 +233,7 @@ body {
   color: black;
   letter-spacing: 4px;
   background-color: white;
-  opacity: .85;
+  opacity: .89;
 }
 .Anth a:hover {
   background-color: white;
@@ -233,19 +241,19 @@ body {
 }
 .Anth img:hover {
   transform: scale(1.05);
-  transition: .5s ease;
+  transition: .04s ease;
 }
 
 /** CH05 - Posts **/
 .PostTitle {
   align-items: center;
   text-align: center;
-  color: #98ccd1;
+  color: #98ccd1;r
   font-family: "Raleway", sans-serif;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 7px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
 }
 .PostLeft img {
   width: auto;
@@ -284,7 +292,7 @@ body {
   font-weight: 300;
   padding-top: 7px;
   padding-bottom: 10px;
-  padding-left: 19%;
+
 }
 .PullQuote {
   text-align: center;
@@ -297,7 +305,7 @@ body {
   padding: 20px;
 }
 .EndBuffer {
-  padding-bottom: 11%;
+  padding-bottom: 8%;
 }
 
 /**CH06 - Inspo **/
