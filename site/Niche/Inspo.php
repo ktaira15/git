@@ -1,6 +1,6 @@
 <?php
   include ('config/init.php');
-  echo echoHeaderHTML('Inspiration');
+  echo headerHTML('Inspiration');
 ?>
     <div class="Inspo">
       <img src="html/inspo/Inspo5.jpg">
@@ -19,5 +19,5 @@
       <p>End with more pithy stuff</p>
     </div>
     <?php
-    echo echoFooterHTML();
+    echo footerHTML();
     ?>

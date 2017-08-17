@@ -24,7 +24,7 @@
 }
 .NavBar li a {
   display: block;
-  padding: 14px 25px;
+  padding: 18px 25px;
   text-decoration: none;
   float: right;
   color: black;
@@ -36,11 +36,11 @@
   color: #8bbfc4;
   background-color: white;}
 }
-.NavBar img {
+.NavBar ul img {
   float: left;
   height: inherit;
-  max-height: 40px;
-  margin-left: 26px;
+  max-height: 30px;
+  margin-left: -24px;
   background-color: transparent;
   color: black;
 }
@@ -54,7 +54,7 @@ body {
   max-width: 50000px;
 }
 .Padding {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .footer {
   background-color: white;
@@ -164,7 +164,7 @@ body {
   color: #98ccd1;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 70px;
+  font-size: 60px;
   letter-spacing: 7px;
 }
 .Updates {
@@ -193,11 +193,6 @@ body {
   margin-bottom: 5px;
   width: 480px;
 }
-.StoryPad {
-  padding-top: 10px;
-  padding-bottom: 35px;
-  font-size: 16px;
-}
 .StoryPosts a {
   text-decoration: none;
   color: black;
@@ -224,9 +219,8 @@ body {
   height: auto;
   display: inline-block;
 }
-.AnthPad {
-  padding-top: 13px;
-  padding-bottom: 40px;
+.Pad {
+  padding-top: 4%;
 }
 .Anth a {
   text-decoration: none;
@@ -248,12 +242,11 @@ body {
 .PostTitle {
   align-items: center;
   text-align: center;
-  color: #98ccd1;r
+  color: #98ccd1;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 65px;
   letter-spacing: 7px;
-  padding-bottom: 50px;
 }
 .PostLeft img {
   width: auto;
@@ -261,9 +254,9 @@ body {
   height: auto;
   display: block;
   padding-bottom: 25px;
-  max-width: 560px;
-  padding-right: 30px;
-  max-height: 400px;
+  max-width: 600px;
+  padding-right: 50px;
+  max-height: 450px;
 }
 .PostRight img {
   width: auto;
@@ -272,16 +265,16 @@ body {
   display: block;
   padding-bottom: 25px;
   padding-top: 25px;
-  max-width: 560px;
+  max-width: 600px;
   padding-left: 30px;
-  max-height: 400px;
+  max-height: 450px;
 }
 .PostText {
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  margin-right: 19%;
-  margin-left: 19%;
+  margin-right: 11%;
+  margin-left: 11%;
   font-size: 15px;
 }
 .CreditText {
@@ -292,7 +285,6 @@ body {
   font-weight: 300;
   padding-top: 7px;
   padding-bottom: 10px;
-
 }
 .PullQuote {
   text-align: center;
@@ -305,7 +297,7 @@ body {
   padding: 20px;
 }
 .EndBuffer {
-  padding-bottom: 8%;
+  padding-bottom: 2%;
 }
 
 /**CH06 - Inspo **/

@@ -24,11 +24,13 @@
 
 <div class="grid">
           <?php
-          $allPreviewArray = previewAllPosts();
-          for($i = 0; $i < sizeof($allPreviewArray); $i++){
-            echo previewPost($i);
+          $newPreviewArray = previewNewPosts();
+          for($i = 0; $i < sizeof($newPreviewArray); $i++){
+            echo previewNewPost($i);
           }
           ?>
+</div>
+<div class="StoryPad">
 </div>
 </html>
 <?php

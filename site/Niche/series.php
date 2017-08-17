@@ -1,36 +1,55 @@
 <?php
 include ('config/init.php');
-echo echoHeaderHTML('Anthologies');
+echo headerHTML('Anthologies');
 echo postFormat('anthologies');
 ?>
     <center>
-      <div class="Anth">
-        <a href="athome.html">
-          <img src="html/home/alone/alone.jpg">
-          <div class="AnthPad">
-            at home
-          </div>
-        </a>
-        <a href="desk.html">
-          <img src="html/desk/theater/theater.jpg">
-          <div class="AnthPad">
-            from the desk of
-          </div>
-        </a>
-        <a href="journey.html">
-          <img src="html/journey/explore.jpg">
-          <div class="AnthPad">
-            journeys
-          </div>
-        </a>
-        <a href="convo.html">
-          <img src="html/convo/convo.jpg">
-          <div class="AnthPad">
-            conversations
-          </div>
+      <div class="grid">
+      <a href='/Niche/AtHome.php'>
+      <div>
+          <img src='/Niche/HTML/home/bench/bench.jpg'>
+        </div>
+        <div>
+        <p>at home</p>
+        <i>stories that you inhabit<br><br>
+        </i>
         </a>
       </div>
+
+      <a href='/Niche/Work.php'>
+      <div>
+          <img src='/Niche/HTML/desk/theater/theater.jpg'>
+        </div>
+        <div>
+        <p>from the desk of</p>
+        <i>stories about your calling
+        </i>
+        </a>
+      </div>
+
+      <a href='/Niche/journey.php'>
+      <div>
+          <img src='/Niche/HTML/journey/windy/windy.jpg'>
+        </div>
+        <div>
+        <p>journeys</p>
+        <i>
+        </i>
+        </a>
+      </div>
+
+      <a href='/Niche/convo.php'>
+      <div>
+          <img src='/Niche/HTML/convo/boat/boat.jpg'>
+        </div>
+        <div>
+        <p>conversations</p>
+        <i>
+        </i>
+        </a>
+      </div>
+
     </center>
     <?php
-    echo echoFooterHTML();
+    echo footerHTML();
      ?>

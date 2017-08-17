@@ -15,12 +15,15 @@ function headerHTML($title){
       <div class='NavBar'>
         <ul>
           <a href='index.php'>
+          <img src='HTML/n.png'>
           </a>
-          <li><a href='Inspo.html'>inspiration</a></li>
-          <li><a href='Series.html'>anthologies</a></li>
-          <li><a href='Stories.html'>stories</a></li>
+          <li><a href='Inspo.php'>inspiration</a></li>
+          <li><a href='Series.php'>anthologies</a></li>
+          <li><a href='Stories.php'>stories</a></li>
         </ul>
       </div>
+<div class'Padding'>
+</div>
       ";
 }
 
