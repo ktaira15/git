@@ -1,36 +1,57 @@
 <?php
 include ('config/init.php');
-echo echoHeaderHTML('Anthologies');
-echo postFormat('anthologies');
+echo headerHTML('collections');
+echo postFormat('collections');
 ?>
     <center>
-      <div class="Anth">
-        <a href="athome.html">
-          <img src="html/home/alone/alone.jpg">
-          <div class="AnthPad">
-            at home
-          </div>
-        </a>
-        <a href="desk.html">
-          <img src="html/desk/theater/theater.jpg">
-          <div class="AnthPad">
-            from the desk of
-          </div>
-        </a>
-        <a href="journey.html">
-          <img src="html/journey/explore.jpg">
-          <div class="AnthPad">
-            journeys
-          </div>
-        </a>
-        <a href="convo.html">
-          <img src="html/convo/convo.jpg">
-          <div class="AnthPad">
-            conversations
-          </div>
+      <div class="grid">
+      <a href='/Niche/AtHome.php'>
+      <div>
+          <img src='/Niche/HTML/home/bench/bench.jpg'>
+        </div>
+        <div>
+        <p>at home</p>
+        <i>home is where the heart is.<br><br>
+        </i>
         </a>
       </div>
+
+      <a href='/Niche/Work.php'>
+      <div>
+          <img src='/Niche/HTML/desk/theater/theater.jpg'>
+        </div>
+        <div>
+        <p>from the desk of</p>
+        <i>stories that spring from your work and passion.<br><br>
+        </i>
+        </a>
+      </div>
+
+      <a href='/Niche/journey.php'>
+      <div>
+          <img src='/Niche/HTML/journey/windy/windy.jpg'>
+        </div>
+        <div>
+        <p>journeys</p>
+        <i>to discover yourself in a new place.<br><br>
+        </i>
+        </a>
+      </div>
+
+      <a href='/Niche/convo.php'>
+      <div>
+          <img src='/Niche/HTML/convo/boat/boat.jpg'>
+        </div>
+        <div>
+        <p>conversations</p>
+        <i>chats in co-habitated space--people and place.<br><br>
+        </i>
+        </a>
+      </div>
+
     </center>
+    <div class="Pad">
+    </div>
     <?php
-    echo echoFooterHTML();
+    echo footerHTML();
      ?>

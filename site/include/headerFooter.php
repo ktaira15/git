@@ -4,6 +4,8 @@ function headerHTML($title){
   <html>
     <head>
       <link rel='stylesheet' type='text/css' href='stylesheet.css'>
+      <link rel='stylesheet' type='text/css' href='grid.css'>
+      <link rel='stylesheet' type='text/css' href='mobile.css'>
       <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Raleway:300,400,600'>
       <title>
         $title
@@ -13,17 +15,23 @@ function headerHTML($title){
       <div class='NavBar'>
         <ul>
           <a href='index.php'>
-            <img src='HTML/icon.png'>
+          <img src='HTML/ma.jpg'>
           </a>
-          <li><a href='Inspo.html'>inspiration</a></li>
-          <li><a href='Series.html'>anthologies</a></li>
-          <li><a href='Stories.html'>stories</a></li>
+          <li><a href='about.php'>about</a></li>
+          <li><a href='Series.php'>collections</a></li>
+          <li><a href='Stories.php'>stories</a></li>
         </ul>
-      </div>";
+      </div>
+<div class'Padding'>
+</div>
+      ";
 }
 
 function footerHTML(){
   return "
+  </div>
+  </div>
+  </div>
   <div class='EndBuffer'>
   </div>
       <div class='Updates'>

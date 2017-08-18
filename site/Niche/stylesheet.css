@@ -1,11 +1,3 @@
-/*going to have to redo most of my design with responsive css
-off the cuff, will have to edit index.php with font in % and maybe fix bg image
-will probably also have to fix postFormat
-definitely am going to have to fix new stories preview
-look more into responsive css, if columns are necessary*/
-
-
-
 /**
  * CH01 - General
  * CH02 - Home
@@ -21,7 +13,6 @@ look more into responsive css, if columns are necessary*/
   width: 100%;
   list-style-type: none;
   margin: 0;
-  padding-left: 18px;
   padding-top: 4px;
   overflow: hidden;
   background-color: #ffffff;
@@ -33,7 +24,7 @@ look more into responsive css, if columns are necessary*/
 }
 .NavBar li a {
   display: block;
-  padding: 14px 25px;
+  padding: 18px 25px;
   text-decoration: none;
   float: right;
   color: black;
@@ -45,11 +36,11 @@ look more into responsive css, if columns are necessary*/
   color: #8bbfc4;
   background-color: white;}
 }
-.NavBar img {
+.NavBar ul img {
   float: left;
   height: inherit;
-  max-height: 60px;
-  margin-left: 26px;
+  max-height: 30px;
+  margin-left: -24px;
   background-color: transparent;
   color: black;
 }
@@ -63,7 +54,7 @@ body {
   max-width: 50000px;
 }
 .Padding {
-  padding-top: 100px;
+  padding-top: 120px;
 }
 .footer {
   background-color: white;
@@ -101,8 +92,8 @@ body {
 
 /**CH02 - Home **/
 .HomeImage {
-  margin: 0px -8.5px;
-  background-image: url("HTML/North.png");
+  margin: 0px -7.5px;
+  background-image: url("HTML/skate.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 100%;
@@ -115,16 +106,16 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 400;
   color: #333333;
-  padding-top: 18%;
+  padding-top: 20%;
   letter-spacing: 8px;
 }
 .Title {
   color: #98ccd1;
   text-align: center;
-  font-size: 120px;
+  font-size: 140px;
+  margin-top: -8%;
   font-family: "Raleway", sans-serif;
-  font-weight: 350;
-  margin-top: -120px;
+  font-weight: 300;
   letter-spacing: 55px;
 }
 .HomeText {
@@ -162,13 +153,23 @@ body {
   color: white;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 30px;
+  font-size: 35px;
   letter-spacing: 2px;
   background-color: #87b8bc;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.Collection {
+  text-align: center;
+  color: #98ccd1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  font-size: 60px;
+  letter-spacing: 7px;
+  padding-top: 3%;
 }
 .Updates {
+  align-items: center;
   text-align: center;
   padding-left: 35%;
   padding-right: 35%;
@@ -182,30 +183,16 @@ body {
   padding-bottom: 30px;
 }
 .form {
+  align-items: center;
   font: inherit;
 }
 
 /** CH03 - Stories **/
-.BigDiv{
-  left: 16%;
-  position: relative;
-  display: inline-block;
-  min-width: 35%;
-  align-items: center;
-}
-.StoryPosts {
-
-}
 .StoryPosts img {
   margin-top: 60px;
   caption-side: bottom;
   margin-bottom: 5px;
   width: 480px;
-}
-.StoryPad {
-  padding-top: 10px;
-  padding-bottom: 35px;
-  font-size: 16px;
 }
 .StoryPosts a {
   text-decoration: none;
@@ -233,16 +220,15 @@ body {
   height: auto;
   display: inline-block;
 }
-.AnthPad {
-  padding-top: 13px;
-  padding-bottom: 40px;
+.Pad {
+  padding-top: 4%;
 }
 .Anth a {
   text-decoration: none;
   color: black;
   letter-spacing: 4px;
   background-color: white;
-  opacity: .85;
+  opacity: .89;
 }
 .Anth a:hover {
   background-color: white;
@@ -250,7 +236,7 @@ body {
 }
 .Anth img:hover {
   transform: scale(1.05);
-  transition: .5s ease;
+  transition: .04s ease;
 }
 
 /** CH05 - Posts **/
@@ -260,9 +246,8 @@ body {
   color: #98ccd1;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 65px;
   letter-spacing: 7px;
-  padding-bottom: 30px;
 }
 .PostLeft img {
   width: auto;
@@ -270,9 +255,9 @@ body {
   height: auto;
   display: block;
   padding-bottom: 25px;
-  max-width: 560px;
-  padding-right: 30px;
-  max-height: 400px;
+  max-width: 600px;
+  padding-right: 50px;
+  max-height: 450px;
 }
 .PostRight img {
   width: auto;
@@ -281,16 +266,16 @@ body {
   display: block;
   padding-bottom: 25px;
   padding-top: 25px;
-  max-width: 560px;
+  max-width: 600px;
   padding-left: 30px;
-  max-height: 400px;
+  max-height: 450px;
 }
 .PostText {
   text-align: left;
   font-family: "Raleway", sans-serif;
   font-weight: 300;
-  margin-right: 19%;
-  margin-left: 19%;
+  margin-right: 11%;
+  margin-left: 11%;
   font-size: 15px;
 }
 .CreditText {
@@ -301,7 +286,6 @@ body {
   font-weight: 300;
   padding-top: 7px;
   padding-bottom: 10px;
-  padding-left: 19%;
 }
 .PullQuote {
   text-align: center;
@@ -314,7 +298,7 @@ body {
   padding: 20px;
 }
 .EndBuffer {
-  padding-bottom: 11%;
+  padding-bottom: 2%;
 }
 
 /**CH06 - Inspo **/
@@ -325,7 +309,7 @@ body {
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
-  padding-top: 40px;
+  padding-top: 5%;
   padding-bottom: 30px;
   clear: both;
 }
@@ -343,6 +327,7 @@ body {
   height: auto;
   max-height: 550px;
   float: left;
+  padding-top: 4%
 }
 .InspoPad {
   padding-top: 50px

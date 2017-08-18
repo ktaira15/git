@@ -1,0 +1,72 @@
+* {box-sizing: border-box;}
+.grid {
+  display: grid;
+  grid-template-columns: minmax(350px, 600px) minmax(350px, 600px);
+  grid-column-gap: 5%;
+  padding-left: 16%;
+  padding-right: 16%;
+  margin-top: -30px;
+}
+
+.grid div {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 1.1em;
+  text-align: center;
+  align-items: center;
+}
+
+.grid img {
+  margin-bottom: -2px;
+  max-width: 100%;
+  min-width: 200px;
+}
+
+.grid a {
+  text-decoration: none;
+  color: black;
+  opacity: .80;
+  padding-top: 14%;
+}
+
+.grid a:hover {
+  transition: 1.01s;
+  opacity: 1;
+}
+
+.grid p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  color: black;
+  font-size: 2.5em;
+  margin-top: 32%;
+  text-align: center;
+  letter-spacing: 7px;
+  margin-bottom: 15px;
+}
+
+/*story grid*/
+.StoryGrid {
+  display: grid;
+  grid-template-columns: minmax(450px, 600px) minmax(auto, 900px);
+  grid-column-gap: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+  grid-row-gap: 8.5%;
+}
+
+.StoryGrid img {
+  max-width: 100%;
+  min-width: 450px;
+}
+.StoryGrid div:nth-child(2){
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.StoryGrid p {
+  margin-top: 0;
+}

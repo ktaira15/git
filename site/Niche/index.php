@@ -7,26 +7,31 @@
       echo headerHTML('Niche Anthology');
     ?>
     <div class="HomeHeading">
-      <p>escape your</p>
-    </div>
+      <p>explore your</p>
     <div class="Title">
       <p>NICHE</p>
     </div>
   </div>
+</div>
     <div class="HomePullQuote">
-      "Pull quote here--something inspiring and pithy that encapsulates project's vibe. Maybe something bordering contrived, because it needs to conform enough to audience's expectations."
+      A consciousness of place, an awareness of your own element. Find what makes you. <br>Explore your niche.
     </div>
     <div class="StoryPad">
     </div>
-    <div class="PostTitle">
+    <div class="Collection">
       new in the collection
     </div>
-<?php
-$allPreviewArray = previewAllPosts();
-for($i = 0; $i < sizeof($allPreviewArray); $i++){
-  echo previewPost($i);
-}
-?>
+
+<div class="grid">
+          <?php
+          $newPreviewArray = previewNewPosts();
+          for($i = 0; $i < sizeof($newPreviewArray); $i++){
+            echo previewNewPost($i);
+          }
+          ?>
+</div>
+<div class="Pad">
+</div>
 </html>
 <?php
   echo footerHTML();

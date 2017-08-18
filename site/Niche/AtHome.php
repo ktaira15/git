@@ -1,8 +1,9 @@
 <?php
   include ('config/init.php');
-  echo echoHeaderHTML('Anthologies');
+  echo headerHTML('Anthologies');
   echo postFormat('at home');
 ?>
+<center>
     <div class="StoryPosts">
       <a href="alone.html">
         <img src="html/home/alone/alone.jpg">
@@ -20,5 +21,5 @@
       </a>
     </div>
     <?php
-    echoFooterHTML();
+  echo footerHTML();
     ?>
